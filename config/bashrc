@@ -1,4 +1,4 @@
 alias figgy='nvim ~/.figgy/'
-alias switch='sudo nixos-rebuild switch --flake ~/.figgy'
+alias switch='sudo nixos-rebuild switch --impure --flake ~/.figgy'
 alias homer='home-manager switch --flake ~/.figgy'
 alias so='source ~/.bashrc'
