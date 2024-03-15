@@ -19,6 +19,9 @@ waybar config is mostly stolen from a dude on reddit (i will credit if I can fin
 
 I don't think this is necessarily how home manager is supposed to be used but I want to keep the dotfiles as is for portability 
 
+My Alacritty colors are based off of my favorite neovim theme citruszest: 
+https://github.com/zootedb0t/citruszest.nvim
+
 ## TODO: 
 - make an install script
 - expand functionality of the waybar config
