@@ -30,4 +30,4 @@ I am using --impure to flake because I don't want the hardware-configuration.nix
   - network management
   - better volume controls
   - better hover for ram/cpu
-  
+- move away from gdm and gnome  
