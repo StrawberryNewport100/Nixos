@@ -9,7 +9,8 @@
 
 
 Still learning Nix.
-*to err is human to forgive is divine*
+
+*to err is human, to forgive is divine*
 
 
 nvim config is garbo but works for me so just sub it out for your own 
