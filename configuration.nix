@@ -62,6 +62,7 @@
       wofi
       avizo
     #for waybar
+      networkmanagerapplet
       libnl
       haskellPackages.chronos
       pavucontrol

@@ -64,11 +64,17 @@
         // "format-full": "",
         "format-icons": ["", "", "", "", ""]
     },
-    "network": {
-        // "interface": "wlp2s0", // (Optional) To force the use of this interface
-        "format-wifi": "{essid} ({signalStrength}%) ",
-        "format-ethernet": "{ifname}:  ",
-        "format-disconnected": "Disconnected ⚠"
+"network": {
+        "format": "{icon}",
+        "format-alt": "{ipaddr}/{cidr} {icon}",
+        "format-alt-click": "click-right",
+        "format-icons": {
+            "wifi": ["", "" ,""],
+            "ethernet": [""],
+            "disconnected": [""]
+        },
+        "on-click": "nm-connection-editor",
+    "tooltip": false
     },
     "pulseaudio": {
         //"scroll-step": 1,
