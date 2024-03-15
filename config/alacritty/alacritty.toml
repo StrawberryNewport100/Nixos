@@ -1,0 +1,31 @@
+[font]
+size = 20.0
+
+
+
+# Default colors
+[colors.primary]
+background = '#121212'
+foreground = '#BFBFBF'
+
+# Normal colors
+[colors.normal]
+black   = '#232323'
+red     = '#FF5454'
+green   = '#00CC7A'
+yellow  = '#FFD700'
+blue    = '#00BFFF'
+magenta = '#c6c842'
+cyan    = '#FF00FF'
+white   = '#BFBFBF'
+
+# Bright colors
+[colors.bright]
+black   = '#767C77'
+red     = '#FF1A75'
+green   = '#1AFFA3'
+yellow  = '#FFFF00'
+blue    = '#28C9FF'
+magenta = '#E206CC'
+cyan    = '#33FFFF'
+white   = '#F9F9F9'

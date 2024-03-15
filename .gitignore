@@ -1,0 +1,3 @@
+config/nvim/plugin
+flake.lock
+hardware-configuration.nix
