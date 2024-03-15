@@ -22,11 +22,12 @@ I don't think this is necessarily how home manager is supposed to be used but I 
 My Alacritty colors are based off of my favorite neovim theme citruszest: 
 https://github.com/zootedb0t/citruszest.nvim
 
+I am using --impure to flake because I don't want the hardware-configuration.nix to be in the repo
+
 ## TODO: 
 - make an install script
 - expand functionality of the waybar config
   - network management
   - better volume controls
   - better hover for ram/cpu
-  - change from circles to numbers for the workspaces
   
