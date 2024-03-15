@@ -2,7 +2,9 @@
 
 
 **WM**: Sway
+
 **Term**: Alacritty 
+
 **Editor**: nvim 
 
 
