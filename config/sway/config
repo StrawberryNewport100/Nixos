@@ -213,7 +213,6 @@ bindsym XF86AudioMicMute exec volumectl -m toggle-mute
 bindsym XF86MonBrightnessUp exec lightctl up
 bindsym XF86MonBrightnessDown exec lightctl down
 
-exec "avizo-service"
 
 # removing titles
 default_border pixel
