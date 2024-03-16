@@ -221,4 +221,8 @@ default_border pixel
 gaps outer 9
 gaps inner 9
 
+#autotiling script
+exec_always autotiling
+
+
 include /etc/sway/config.d/*

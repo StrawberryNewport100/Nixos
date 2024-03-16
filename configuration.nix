@@ -141,6 +141,7 @@
       ])
      ++
      (with pkgs-unstable; [
+            autotiling
             alacritty
      ]);
   
