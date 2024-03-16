@@ -27,7 +27,5 @@ I am using --impure to flake because I don't want the hardware-configuration.nix
 ## TODO: 
 - make an install script
 - expand functionality of the waybar config
-  - network management
-  - better volume controls
-  - better hover for ram/cpu
 - move away from gdm and gnome  
+- add lid close / hibernate functionality
