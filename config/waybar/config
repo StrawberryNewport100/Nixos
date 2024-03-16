@@ -20,8 +20,8 @@
     },
     "clock": {
 	"interval": 1,
-  	"format": "{:%A, %B %d, %Y %r}",
-  	"format-alt": "{: %r}",
+  	"format": "{: %r}",
+  	"format-alt": "{:%A, %B %d, %Y %r}",
   	"tooltip-format": "<tt><small>{calendar}</small></tt>",
   	"calendar": {
   		"mode"          : "year",
