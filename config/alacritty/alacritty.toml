@@ -1,7 +1,10 @@
 [font]
 size = 20.0
-
-
+#blur
+[window]
+#opacity = 0.9
+#blur doesn't work for now
+#blur = true
 
 # Default colors
 [colors.primary]
