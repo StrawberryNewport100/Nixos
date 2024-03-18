@@ -8,6 +8,8 @@
   imports =
     [ # Include the results of the hardware scan.
       ./packages.nix
+      ./sway.nix
+      ./users.nix
       /etc/nixos/hardware-configuration.nix
     ];
 
@@ -51,36 +53,6 @@
   services.xserver.displayManager.gdm.wayland = true;
   services.xserver.desktopManager.gnome.enable = true;
 
-  programs.sway = {
-    enable = true;
-    wrapperFeatures.gtk = true; # so that gtk works properly
-    extraPackages = with pkgs; [
-      swaylock
-      swayidle
-      wl-clipboard
-      mako # notification daemon
-      dmenu # Dmenu is the default in the config but i recommend wofi since its wayland native
-      wofi
-      avizo
-    #for waybar
-      networkmanagerapplet
-      libnl
-      haskellPackages.chronos
-      pavucontrol
-      font-awesome
-    ];
-    extraSessionCommands = ''
-      export SDL_VIDEODRIVER=wayland
-      export QT_QPA_PLATFORM=wayland
-      export QT_WAYLAND_DISABLE_WINDOWDECORATION="1"
-      export _JAVA_AWT_WM_NONREPARENTING=1
-      export MOZ_ENABLE_WAYLAND=1
-    '';
-  };
-
-  programs.waybar.enable = true;
-
-
 
   # Enable sound with pipewire.
   sound.enable = true;
@@ -102,19 +74,8 @@
   # Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
 
-  # Define a user account. Don't forget to set a password with ‘passwd’.
-  users.users.rigby = {
-    isNormalUser = true;
-    description = "rigby";
-    extraGroups = [ "networkmanager" "wheel" "video" ];
-    packages = with pkgs; [
-      firefox
-    #  thunderbird
-    ];
-  };
 
-  # Allow unfree packages
-  nixpkgs.config.allowUnfree = true;
+  
 
   #save config to /run/current-system/configuration.nix.
     #diable for flakes

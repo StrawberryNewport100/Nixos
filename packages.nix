@@ -24,10 +24,11 @@
       ])
      ++
      (with pkgs-unstable; [
-            autotiling
             alacritty
      ]);
   
 
 
+  # Allow unfree packages
+  nixpkgs.config.allowUnfree = true;
 }
