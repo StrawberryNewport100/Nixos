@@ -15,7 +15,7 @@
  home.file.".config/waybar".source = ./config/waybar;
  home.file.".config/nvim".source = ./config/nvim;
  home.file.".bashrc".source = ./config/bashrc;
- home.file.".config/wofi".source = ./config/wofi;
+ home.file.".config/tofi".source = ./config/tofi;
 
 
 

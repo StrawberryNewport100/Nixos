@@ -11,11 +11,11 @@
         #sway window manager 
         ./sway.nix
 
-        #users 
-        ./users.nix
-
         #display servers and display managers
         ./display.nix
+
+        #users 
+        ./users.nix
 
         #Networking, sound, settings etc.
         ./system.nix

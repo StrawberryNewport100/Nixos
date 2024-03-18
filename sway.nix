@@ -10,7 +10,7 @@
       wl-clipboard
       mako # notification daemon
       dmenu # Dmenu is the default in the config but i recommend wofi since its wayland native
-      wofi
+      tofi
       avizo
     #for waybar
       networkmanagerapplet
